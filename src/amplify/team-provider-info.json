@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-goatdiag-dev-25602-authRole",
+      "UnauthRoleArn": "arn:aws:iam::202569459614:role/amplify-goatdiag-dev-25602-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::202569459614:role/amplify-goatdiag-dev-25602-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-goatdiag-dev-25602-deployment",
+      "UnauthRoleName": "amplify-goatdiag-dev-25602-unauthRole",
+      "StackName": "amplify-goatdiag-dev-25602",
+      "StackId": "arn:aws:cloudformation:us-east-1:202569459614:stack/amplify-goatdiag-dev-25602/a02c7e50-a4d2-11eb-93b5-0edd85921ccb",
+      "AmplifyAppId": "d19puwm789om9e"
+    },
+    "categories": {
+      "auth": {
+        "goatdiaga6e2fa88": {}
+      }
+    }
+  }
+}

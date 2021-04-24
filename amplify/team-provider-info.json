@@ -1,0 +1,15 @@
+{
+  "degv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-goatdiagio-degv-24905-authRole",
+      "UnauthRoleArn": "arn:aws:iam::202569459614:role/amplify-goatdiagio-degv-24905-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::202569459614:role/amplify-goatdiagio-degv-24905-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-goatdiagio-degv-24905-deployment",
+      "UnauthRoleName": "amplify-goatdiagio-degv-24905-unauthRole",
+      "StackName": "amplify-goatdiagio-degv-24905",
+      "StackId": "arn:aws:cloudformation:us-east-1:202569459614:stack/amplify-goatdiagio-degv-24905/a84e5c80-a4d1-11eb-9d4d-122c900fa557",
+      "AmplifyAppId": "d19puwm789om9e"
+    }
+  }
+}
