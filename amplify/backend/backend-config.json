@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "goatdiagiod732f975": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

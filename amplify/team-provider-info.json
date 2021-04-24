@@ -10,6 +10,11 @@
       "StackName": "amplify-goatdiagio-degv-24905",
       "StackId": "arn:aws:cloudformation:us-east-1:202569459614:stack/amplify-goatdiagio-degv-24905/a84e5c80-a4d1-11eb-9d4d-122c900fa557",
       "AmplifyAppId": "d19puwm789om9e"
+    },
+    "categories": {
+      "auth": {
+        "goatdiagiod732f975": {}
+      }
     }
   }
 }
