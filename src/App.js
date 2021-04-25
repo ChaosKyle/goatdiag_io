@@ -7,7 +7,7 @@ import {
   AmplifySignIn,
   AmplifySignUp,
 } from '@aws-amplify/ui-react'
-import { MdSend /* MdList */ } from 'react-icons/md'
+//import { MdSend /* MdList */ } from 'react-icons/md'
 import awsConfig from './aws-exports'
 Amplify.configure(awsConfig)
 
@@ -77,9 +77,9 @@ const App = () => {
               onChange={(e) => onChange(e)}
             />
           </p>
-          <button type='submit' className='btn'>
-            Submit <MdSend className='btn-icon' />
-          </button>
+          //<button type='submit' className='btn'>
+            //Submit <MdSend className='btn-icon' />
+          //</button>
         </form>
       </div>
 
