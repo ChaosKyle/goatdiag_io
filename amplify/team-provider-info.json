@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "goatdiagiod732f975": {}
+      },
+      "function": {
+        "goatdiaglambda": {
+          "deploymentBucketName": "amplify-goatdiagio-degv-24905-deployment",
+          "s3Key": "amplify-builds/goatdiaglambda-362f716d463549464a74-build.zip"
+        }
       }
     }
   }
