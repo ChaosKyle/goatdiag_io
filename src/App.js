@@ -22,7 +22,7 @@ const App = () => {
       setLoading(true);
       await Storage.put('file.tgz', file, {
         level: 'private',
-        contentType: 'file/tgz'
+        contentType: 'file/*'
       });
       const url = await Storage.get('file.tgz', { level: 'private' })
       setImageUrl(url);
@@ -36,7 +36,7 @@ const App = () => {
     <div className="App">
       <h1> Upload an Image </h1>
       {loading ? <h3>Uploading...</h3> : <input
-        type="file" accept='image/jpg'
+        type="file" accept='*/*'
         onChange={(evt) => handleChange(evt)}
       />}
       <div>
