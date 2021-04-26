@@ -8,7 +8,7 @@ import awsconfig from './aws-exports';
 Amplify.configure(awsconfig);
 
 const App = () => {
-  const [imageUrl, setImageUrl] = useState(null);
+  const [fileUrl, setfileUrl] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const downloadUrl = async () => {
