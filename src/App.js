@@ -12,7 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(false);
 
   const downloadUrl = async () => {
-    const downloadUrl = await Storage.get('picture.jpg', { level: 'private', expires: 10 });
+    const downloadUrl = await Storage.get('file.tgz', { level: 'private', expires: 10 });
     window.location.href = downloadUrl
   }
 
@@ -20,11 +20,11 @@ const App = () => {
     const file = e.target.files[0];
     try {
       setLoading(true);
-      await Storage.put('picture.jpg', file, {
+      await Storage.put('file.tgz', file, {
         level: 'private',
-        contentType: 'image/jpg'
+        contentType: 'file/tgz'
       });
-      const url = await Storage.get('picture.jpg', { level: 'private' })
+      const url = await Storage.get('file.tgz', { level: 'private' })
       setImageUrl(url);
       setLoading(false);
     } catch (err) {
